@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    	<title>SoftwareII</title>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+    </head>
+        <body>
+
+
+		        <div class="wrapper d-flex align-items-stretch">
+              
+              <nav id="sidebar">
+		                 <div class="p-4 pt5" >
+                             <div class="row">
+                                 <a href="#" class="img logo rounded-circle mb-5 col" style="background-image: url(images/logo.jpg);"></a>
+                                     <div class="col" style=" height: 120px; padding-top: 50px;">
+                                         <div>
+                                            Admin_Name
+                                         </div>
+                                         <div>
+                                            En Linea
+                                         </div>
+                                     </div>
+                             </div>
+	                        <ul class="list-unstyled components mb-5">
+	                         <li class="active">
+	                            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Administrar</a>
+	                         <ul class="collapse list-unstyled" id="homeSubmenu">
+                                 <li>
+                                     <a href="#">Adicionar</a>
+                                 </li>
+                                 <li>
+                                    <a href="#">Modificar</a>
+                                 </li>
+                                  <li>
+                                     <a href="#">Eliminar</a>
+                                 </li>
+                                  <li>
+                                     <a href="#">Alumnos</a>
+                                 </li>
+	                         </ul>
+	                        </li>
+	                              <li>
+	                                <a href="#">Salir</a>
+                                 </li>
+              
+                            <div class="footer">
+	        	            
+	                         </div>
+
+	                    </div>
+    	            </nav>
+
+        
+                        <div id="content" class="p-4 p-md-5">
+                             <nav>
+                                <div class="container-fluid" style="right: 0;">  
+                                    <h3> Bienvenido, Miguelito</h3> 
+                               </div>
+                             </nav>
+
+                                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                                    <div class="container-fluid">
+                                            <button type="button" id="sidebarCollapse" class="btn btn-primary">
+                                              <i class="fa fa-bars"></i>
+                                            </button>
+                                             <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                             <i class="fa fa-bars"></i>
+                                            </button>
+                                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                                     <ul class="nav navbar-nav ml-auto">
+                                                            <li class="nav-item active">
+                                                                     <a class="nav-link" href="#">Inicio</a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                  <a class="nav-link" href="#">Salir</a>
+                                                            </li>
+                                                    </ul>
+                                            </div>
+                                     </div>
+                                </nav>
+                                <div class="botones">
+                                    
+                                    <div class="izq">
+                                        
+                                        <button type="button" class="btn btn-light" >Buscar</button>
+                                        <input type="text">
+                                    </div>
+                                    
+                                    <button type="button" class="btn btn-primary" id="ingresar">Registrar Usuario</button>
+                                </div>
+                                <ul id="mi-menu">
+                                  <li title="editar" id="aea"><button type="button" class="btn btn-success boton" id="editar">
+                                  <img src="./images/edit.png" alt="">
+                                  Editar</button></li>
+                                  <li title="Eliminar" id="aea"><button type="button" class="btn btn-danger boton" id="delete">
+                                  <img src="./images/trash.png" alt=""> Eliminar</button></li>
+                                </ul>
+                                <div class="tabla">
+                                    <table class="table table-striped ">
+                                        <thead class="cabecera-tabla">
+                                          <tr>
+                                            <th scope="col" name="codigo">Codigo</th>
+                                            <th scope="col" name="nombres">Nombres</th>
+                                            <th scope="col" name="apellidos">Apellidos</th>
+                                            <th scope="col" name="correo">Correo</th>
+                                            <th scope="col" name="facultad">Facultad</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody id="lista" class="lista">
+                                          
+                                        </tbody>
+                                      </table>
+                                    </div>
+                     </div>
+                </div>
+                     <script src="js/jquery.min.js"></script>
+                     <script src="js/popper.js"></script>
+                    <script src="js/bootstrap.min.js"></script>
+                    <script src="js/main.js"></script>
+                    <script src="js/javascript.js"></script>
+        </body>
+    </html>
